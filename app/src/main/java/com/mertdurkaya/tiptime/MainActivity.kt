@@ -84,7 +84,7 @@ class MainActivity : AppCompatActivity() {
     }
     private fun displayTotal(tip: Double) {
         val formattedTotal = NumberFormat.getCurrencyInstance().format(tip)
-        binding.totalResult.text = "Tip Amount: $formattedTotal"
+        binding.totalResult.text = "Total Amount: $formattedTotal"
     }
 
     /**
